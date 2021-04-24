@@ -4,8 +4,8 @@
     width: 5.5rem;
     height: 5.5rem;
     border: 1px solid #ececec;
-    background-color: #0044ff;
-    color: white;
+    background-color: rgb(240, 240, 240);
+    color: rgb(255, 115, 0);
     border-radius: 12px;
     align-items: center;
     justify-content: center;

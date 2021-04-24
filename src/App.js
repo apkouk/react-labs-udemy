@@ -31,6 +31,7 @@ function App() {
   return (
     <div className="App">
       <div className="expenses-list">
+      <h2>Expenses List </h2>
         <ExpensesList expenses={expenses}></ExpensesList>
       </div>
     </div>
