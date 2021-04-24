@@ -5,7 +5,7 @@ function ExpensesList(props) {
     return (
         <div className="expenses-list"> {
             props.expenses.map(item =>
-                <ExpenseItem title={item.title} amount={item.amount} date={item.date} />
+                <ExpenseItem key={item.id} value={item} title={item.title} amount={item.amount} date={item.date} />
             )};
         </div>
     );
