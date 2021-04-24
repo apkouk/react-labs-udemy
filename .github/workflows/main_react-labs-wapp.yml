@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: B&D Node.js Azure Web App -> react-labs-wapp
+name: B&D Node.js app in Azure Web App -> react-labs-wapp
 
 on:
   push:
