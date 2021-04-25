@@ -33,7 +33,7 @@ function App() {
       return [expense, ...prevExpenses];
     });
     console.log("IN APP.js");
-    console.log(expense);
+ 
   };
 
   return (

@@ -18,15 +18,21 @@ const NewExpense = (props) => {
     console.log(expenseData);
   };
 
+  const onShowHideHandler = () => {
+    setShowHideNewExpense(!showHideNewExpense);
+  }
+
+
   return (
-    <div className="new-expense" onLoad={setShowHideNewExpenseHandler}>
+    <div className="new-expense">
       {!showHideNewExpense && (
         <button onClick={setShowHideNewExpenseHandler}>Add New Expense</button>
       )}
       {showHideNewExpense && (
         <ExpenseForm
           onSaveExpenseData={saveExpenseDataHandler}
-          show={showHideNewExpense}
+          show={showHideNewExpense}  
+          onShowHide={onShowHideHandler}        
         />
       )}
     </div>
