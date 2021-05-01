@@ -23,7 +23,7 @@ const ExpenseForm = (props) => {
 
       const expenseData = {
           title: enteredTitle,
-          amount: enteredAmount,
+          amount: +enteredAmount, //Con el simbolo más hacemos que el valor se guarde como si fuera entero
           date: new Date(enteredDate)
       }
       
